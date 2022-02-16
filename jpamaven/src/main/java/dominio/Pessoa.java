@@ -20,7 +20,7 @@ public class Pessoa implements Serializable{
 	private String email;
 	
 	
-	EntityManagerFactory emf = Persistence.createEntityManagerFactory("exemplo-jpa");
+	//EntityManagerFactory emf = Persistence.createEntityManagerFactory("exemplo-jpa");
 	
 	public Pessoa() {
 		
